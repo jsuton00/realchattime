@@ -1,7 +1,12 @@
 import React from 'react';
+import Room from './pages/Room';
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Room />
+    </>
+  );
 };
 
 export default App;
